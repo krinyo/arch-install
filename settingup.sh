@@ -9,8 +9,6 @@ systemctl enable dhcpcd.service
 systemctl enable sshd.service
 
 passwd
-useradd -m -s /bin/bash username
-passwd username
 
 echo 'vm-arch' > /etc/hostname
 
