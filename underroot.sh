@@ -4,9 +4,3 @@ pacman -S xorg-xinit xorg-server i3 awk coreutils i3lock imagemagick util-linux 
 
 #useradd -m -s /bin/bash username
 #passwd username
-
-echo "i3" >> .xinitrc
-
-echo "if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
-startx
-fi" >> .bash_profile
